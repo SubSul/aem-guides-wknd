@@ -130,6 +130,7 @@
                                     <goal>install</goal>
                                 </goals>
                                 <configuration>
+                                    <useProxy>false</useProxy>
                                     <targetURL>http://${aem.host}:${aem.port}/crx/packmgr/service.jsp</targetURL>
                                     <failOnError>true</failOnError>
                                 </configuration>
@@ -156,6 +157,7 @@
                                     <goal>install</goal>
                                 </goals>
                                 <configuration>
+                                    <useProxy>false</useProxy>
                                     <targetURL>http://${aem.publish.host}:${aem.publish.port}/crx/packmgr/service.jsp</targetURL>
                                     <failOnError>true</failOnError>
                                 </configuration>
